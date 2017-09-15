@@ -34,7 +34,7 @@ dotnet run --project src\mumble.app -- identity
 
 #### raw
 
-`identity`: prints the entire content of the MumbleLink memory section in binary format. Not meant to be dislayed in a terminal. Instead, you can redirect the output to a file and use a HEX viewer or other tools to view it.
+`raw`: prints the entire content of the MumbleLink memory section in binary format. Not meant to be dislayed in a terminal. Instead, you can redirect the output to a file and use a HEX viewer or other tools to view it.
 
 ```
 dotnet run --project src\mumble.app -- raw > snapshot.bin
